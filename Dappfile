@@ -1,0 +1,13 @@
+version: 0.0.1-dev
+tags: []
+layout:
+  sol_sources: .
+  build_dir: build
+  packages_directory: .dapple/packages/
+dependencies: {}
+ignore: []
+name: ens
+environments:
+  ropsten:
+    ens_root: "0x112234455c3a32fd11230c42e7bccd4a84e02010"
+    type: ENS[] # TODO
